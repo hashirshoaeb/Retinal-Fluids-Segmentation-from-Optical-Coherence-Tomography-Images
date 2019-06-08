@@ -10,7 +10,7 @@ The dataset contains around 610 OCT scans of 10 subjects suffering from severe d
 
 In this assignment, you need to extract the retinal fluids from the candidate B-scan using image processing and deep learning techniques. Then you need to evaluate the techniques using accuracy and the dice coefficient which can be computed through following formulas.
 
-    Accruacy = (Tp + Tn) / (Tp + Tn + Fp + Fn)
+    Accuracy = (Tp + Tn) / (Tp + Tn + Fp + Fn)
     
 where Tp are the true positives indicating that the fluid pixels extracted by the algorithm matches the ground truth, Tn are the true negatives indicating that the no-fluid pixels extracted by the algorithm matches the ground truth, Fp are the false positives indicating that the fluid pixels are incorrectly extracted by the algorithm and Fn are the false negatives indicating that the no-fluid pixels are incorrectly extracted by the algorithm. The dice coefficient can be computed through:
 
